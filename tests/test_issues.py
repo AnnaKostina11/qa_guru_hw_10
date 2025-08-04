@@ -23,7 +23,7 @@ def test_issue_name_selene():
 
 
 @allure.tag("web")
-@allure.severity(Severity.MINOR)
+@allure.severity(Severity.NORMAL)
 @allure.label("owner", "AnnaKostina11")
 @allure.feature("Проверка названия Issue")
 @allure.story("С динамическими шагами")
@@ -49,7 +49,7 @@ def test_issue_name_dynamic_steps():
 
 
 @allure.tag("web")
-@allure.severity(Severity.MINOR)
+@allure.severity(Severity.CRITICAL)
 @allure.label("owner", "AnnaKostina11")
 @allure.feature("Проверка названия Issue")
 @allure.story("Шаги с декоратором")
